@@ -1,0 +1,38 @@
+{
+  "scripts": {
+    "start": "node server.js",
+    "build": "webpack"
+  },
+  "name": "website",
+  "version": "1.0.0",
+  "main": "server.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/core": "^6.1.7",
+    "angular2-materialize": "^15.1.10",
+    "animate.css": "^3.7.0",
+    "body-parser": "^1.18.3",
+    "bootstrap": "^4.1.3",
+    "bootstrap-material-design": "^4.1.1",
+    "express": "^4.16.3",
+    "font-awesome": "^4.7.0",
+    "hammerjs": "^2.0.8",
+    "jquery": "^2.2.4",
+    "materialize-css": "^1.0.0-rc.2",
+    "mdbootstrap": "^4.5.10",
+    "mongoose": "^5.2.14",
+    "rxjs": "^6.3.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ticomorais/tico.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ticomorais/tico/issues"
+  },
+  "homepage": "https://github.com/ticomorais/tico#readme",
+  "description": ""
+}

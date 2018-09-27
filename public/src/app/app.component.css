@@ -1,0 +1,52 @@
+#tico {
+    height: 80px;
+    margin: 0px 0px 0px 80px;
+}
+.tico{
+    height: 80px;
+    width: auto;
+}
+#icons {
+    height: 30px;
+    margin: 0px 120px 0px 0px;
+}
+#icons2 {
+    height: 30px;
+    margin: 0px 20px 0px 0px;
+}
+#button {
+    color: #337BE8;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: box-shadow 0.3s ease-in-out;
+}
+#button2 {
+    color: #03FF49;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: box-shadow 0.3s ease-in-out;
+}
+#jumbotron {
+    /* background-color: #337BE8; */
+    background-image: linear-gradient(to bottom right, #33E8B8, #03FF49);
+}
+#icons:hover{
+
+    transform: scale(1.5);
+    
+}
+#icons2:hover{
+
+    transform: scale(1.5);
+    
+    }
+#navbarSupportedContent{
+    position: absolute;
+    right: 0px;
+    width: 400px;
+    /* border: 3px solid #73AD21; */
+    padding: 10px;
+    overflow: auto;
+
+}
+
+
+

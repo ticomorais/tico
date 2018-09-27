@@ -1,0 +1,239 @@
+.jumbotron {
+    /* background-color: #337BE8; */
+    background-image: linear-gradient(to bottom right, #44DEFF, #03FF49);
+    /* margin: 0px 0px 0px 0px; */
+}
+.display-6 {
+    color: #337BE8;
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+}
+#picture {
+    height: 300px;
+    display: inline-block;
+    margin: auto;
+}
+.text {
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+
+}
+.lead {
+    display: inline-block;
+}
+.bottom {
+    padding: 32px 32px;
+    vertical-align: middle;
+    margin: 0px;
+}
+.display-4 {
+    color: #337BE8;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.display-5 {
+    color: #337BE8;
+    margin: 0 auto;
+    text-align: center;
+}
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+#pic1 {
+    height: 600px;
+    padding: 30px 180px;
+}
+.box1 {
+    /* display: inline-block; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+
+    
+}
+.box2 {
+    display: inline-block;
+    /* float: none; */
+    width: 450px;
+    height: 450px;
+    background-color: #337BE8;
+    /* margin: 0 auto; */
+    vertical-align: middle;
+    /* margin-right: auto; */
+    
+}
+.box3 {
+    display: inline-block;
+    /* float: none; */
+    width: 450px;
+    height: 450px;
+    background-color: #33E8B8;
+    /* margin: 0 auto; */
+    vertical-align: middle;
+    /* margin-right: auto; */
+    
+}
+
+.box5 {
+    display: inline-block;
+    width: 900px;
+    height: 450px;
+    background-image: url(../../assets/photography.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: #03FF49 */
+  
+}
+.box6 {
+    display: inline-block;
+    width: 900px;
+    height: 300px;
+    /* background-image: url(../../assets/photography.jpg); */
+    /* background-repeat: no-repeat;
+    background-position: right top; */
+    background-size: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+  
+}
+.box4 {
+    /* display: inline-block; */
+    width: 80%;
+    height: 60px;
+    /* border: 60px; */
+    margin: 80px 40px;
+    
+}
+.big_text{
+    font-size: 1000px;
+    margin: 0 auto;
+    
+}
+.big_text2{
+    font-size: 2em;
+    margin: 0 auto;
+    
+}
+.text_overlap{
+    /* position:relative; */
+    top: 30px;
+    left: 500px;
+    width: 100%;
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+h4{
+  height: 18em;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.typewriter h1 {
+    /* border: 30px 0px; */
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+  .logos {
+      height: 70px;
+      margin: 30px 0px;
+      opacity: 0.5;
+      /* border: 30px 0px; */
+  }
+  .logos:hover{
+      opacity: 1;
+  }
+  .space_type{
+      padding: 40px;
+  }
+.text_content{
+    margin: 30px;
+    color: white;
+    /* font-size: 80px; */
+
+}
+.box_content{
+    margin: 90px 0px;
+    /* background-color:black; */
+
+}
+.text_content2{
+    text-align: right;
+    font-weight: bold;
+    margin: 15px 0px 80px 0px;
+    color: black;
+    
+}
+#icons {
+    height: 30px;
+    margin: 0px 20px 0px 0px;
+}
+#icons2 {
+    height: 30px;
+    margin: 0px 20px 0px 0px;
+}
+#icons3 {
+    height: 30px;
+    margin: 0px 20px 0px 60px;
+}
+#icons:hover{
+
+    transform: scale(1.5);
+    
+}
+#icons2:hover{
+
+    transform: scale(1.5);
+}
+.bottom-icon{
+    margin: auto;
+    width: 19%;
+    /* border: 3px solid green; */
+    padding: 10px;
+}
+/* .box5 {
+    border: 1px solid #eee; */
+  /* } */
+/* .hidden_text > ul {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+  }
+.hidden_text:hover  {
+    visibility: visible;
+    opacity: 1;
+     */
+/* } */
+.copyright{
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small; 
+    /* font-weight: bold; */
+    color: white;
+
+}
