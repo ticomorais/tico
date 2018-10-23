@@ -1,0 +1,55 @@
+<!-- <div class="jumbotron jumbotron-fluid">
+  <h1>Add a blog</h1>
+  <h4 style="color:red; font-weight: bold">This section is for admin only.</h4>
+  <form>
+    <div class="form-group">
+      <label for="formGroupExampleInput">Title</label>
+      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input" name="Page.title" [(ngModel)]="newBlog.title">
+    </div>
+    <div class="form-group">
+      <label for="formGroupExampleInput2">Another label</label>
+      <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input" name="Page.content" [(ngModel)]="newBlog.content">
+    </div>
+    <div class="upload-btn-wrapper">
+        <button class="btn">Upload a file</button>
+        <input type="file" name="myfile" />
+      </div>
+      <input type="submit" value="Add a Post" >
+  </form>
+  
+</div>  -->
+
+<form (submit)="addBlog()">
+  <p>Category <select name="newBlog.category" [(ngModel)]="newBlog.category">
+      <option value="Web">Web</option>
+      <option value="Photo">Photo</option>
+      <option value="Video">Video</option>
+      <option value="Graphic Design">Graphic Design</option>
+    </select></p>
+  <p>Title <input type="text" name="newBlog.title" [(ngModel)]="newBlog.title"></p>
+  <p>Content <input class="form-control" type="text" name="newBlog.content" [(ngModel)]="newBlog.content"></p>
+  <input type="submit" value="Add">
+</form>
+{{ newBlog | json }}
+<p>
+<tr *ngFor="let b of allBlogs">
+  <td>{{b.title}}</td>
+  <td><button (click)="editBlog(b)">Edit</button></td>
+  <td><button (click)="deleteBlog(b)">Delete</button></td>
+  <!-- <td><button (click)="deletePage()">Delete</button></td> -->
+</tr>
+</p> 
+<div *ngIf="editing">
+    <form (submit)="editBlog(b)">
+        <p>Category <select name="editing.category" [(ngModel)]="editing.category">
+            <option value="Web">Web</option>
+            <option value="Photo">Photo</option>
+            <option value="Video">Video</option>
+            <option value="Graphic Design">Graphic Design</option>
+          </select></p>
+        <p>Title <input type="text" name="editing.title" [(ngModel)]="editing.title"></p>
+        <p>Content <input class="form-control" type="text" name="editing.content" [(ngModel)]="editing.content"></p>
+        <input type="submit" value="Add">
+      </form>
+
+</div>

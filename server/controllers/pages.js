@@ -11,7 +11,7 @@ module.exports = {
             }else{
                 res.json(pages);
             }
-        })
+        }).sort({created_at:-1});
         // res.json("Working here");
     },
     singlePage: (req,res) => {
@@ -23,7 +23,8 @@ module.exports = {
             }
         })
     },
-    addPages: (req,res) => {
+    addPages: (req,res,next) => {
+        console.log("Teste here", req.body)
         Page.create(req.body, (err,page)=>{
             if(err){
                 res.json(err);

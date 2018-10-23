@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpService } from './../http.service';
+
 
 @Component({
   selector: 'app-blog',
@@ -6,10 +8,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./blog.component.css']
 })
 export class BlogComponent implements OnInit {
+  allBlogs: any;
 
-  constructor() { }
+  constructor(private _httpService: HttpService) { }
 
   ngOnInit() {
+    this._httpService.allBlogs().subscribe(data => {
+      console.log(data);
+      this.allBlogs = data;
+    })
+  
   }
 
 }

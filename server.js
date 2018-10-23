@@ -3,6 +3,7 @@ const app = express();
 const bodyParser = require('body-parser');
 
 app.use(express.static(__dirname + '/public/dist/public'));
+app.use(express.static(__dirname + '/assets/uploads'));
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
