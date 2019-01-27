@@ -80,7 +80,7 @@
     display: inline-block;
     width: 900px;
     height: 450px;
-    background-image: url(../../assets/photography.jpg);
+    background-image: url(../../assets/eyes.jpg);
     background-repeat: no-repeat;
     background-position: right top;
     background-size: 100%;
@@ -93,7 +93,7 @@
     display: inline-block;
     width: 900px;
     height: 300px;
-    /* background-image: url(../../assets/photography.jpg); */
+    background-image: url(../../assets/phone.jpg);
     /* background-repeat: no-repeat;
     background-position: right top; */
     background-size: 100%;
@@ -172,7 +172,7 @@ h4{
 .text_content{
     margin: 30px;
     color: white;
-    /* font-size: 80px; */
+    font-size: 20px;
 
 }
 .box_content{
@@ -236,4 +236,14 @@ h4{
     /* font-weight: bold; */
     color: white;
 
+}
+#text_box{
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+}
+.text-bgc{
+    background: rgba(0, 0, 0, .5);
+    color: white;
 }
